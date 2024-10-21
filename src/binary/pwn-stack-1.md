@@ -10,7 +10,7 @@
 
 When a new function is called, a memory address in the **calling** function is pushed to the stack - this way, the program knows where to return to once the called function finishes execution. Let's look at a basic binary to show this.
 
-[introduction.zip](assets/introduction.zip)
+[introduction.zip](../assets/introduction.zip)
 
 ### Analysis
 
@@ -146,7 +146,7 @@ To do this, what do we need to know? Well, a couple of things:
 
 When I say "overwrite EIP", I mean overwrite the saved return pointer that gets popped into EIP. The EIP register is not located on the stack, so it is not overwritten directly.
 
-[ret2win.zip](assets/ret2win.zip)
+[ret2win.zip](../assets/ret2win.zip)
 
 ### Finding the Padding
 
@@ -381,7 +381,7 @@ In real exploits, it's not particularly likely that you will have a `win()` func
 
 The reason shellcode is successful is that [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture) (the architecture used in most computers today) does not differentiate between **data** and **instructions** - it doesn't matter where or what you tell it to run, it will attempt to run it.  Therefore, even though our input is data, the computer *doesn't know that* - and we can use that to our advantage.
 
-[shellcode.zip](assets/shellcode.zip)
+[shellcode.zip](../assets/shellcode.zip)
 
 ### Disabling ASLR
 

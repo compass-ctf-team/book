@@ -78,8 +78,6 @@ For a large number of students who are currently still using Windows, if you hav
 
 First, depending on your version of Windows (64-bit or 32-bit), download the [64-bit installer](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe) or [32-bit installer](https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe), then, run the downloaded exe installer:
 
-![install-py35](../assets/install-py35_hd.png)
-
 Pay special attention to checking `Add Python 3.8 to PATH`, and then click `Install Now` to complete the installation.
 
 ### Run Python

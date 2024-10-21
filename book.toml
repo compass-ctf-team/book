@@ -6,6 +6,7 @@ src = "src"
 title = "COMPASS CTF Knowledge Base"
 
 [output.html]
+mathjax-support = true
 git-repository-url = "https://github.com/compass-ctf-team/book"
 edit-url-template = "https://github.com/compass-ctf-team/book/edit/master/{path}"
 

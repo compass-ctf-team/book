@@ -33,6 +33,7 @@
 # Reverse
 
 - [RE](reverse/RE.md)
+    - [Getting Started](reverse/Reverse.md)
 
 # Web
 
