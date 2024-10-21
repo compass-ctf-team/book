@@ -1,0 +1,17 @@
+[book]
+authors = ["COMPASS CTF"]
+language = "en"
+multilingual = false
+src = "src"
+title = "COMPASS CTF Knowledge Base"
+
+[output.html]
+git-repository-url = "https://github.com/compass-ctf-team/book"
+edit-url-template = "https://github.com/compass-ctf-team/book/edit/master/{path}"
+
+[output.html.search]
+use-boolean-and = true
+
+[output.html.fold]
+enable = true
+level = 0

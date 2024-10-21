@@ -1,0 +1,2 @@
+# COMPASS CTF Knowledge Base
+
